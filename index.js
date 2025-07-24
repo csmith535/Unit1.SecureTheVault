@@ -8,7 +8,7 @@ let code3 = (10 % 3) * 39;
 
 let message = "The vault has been secured. The combination is:";
 
-let codeA = code1 - code2 - code3;
+let codeA = code1 + "-" + code2 + "-" + code3;
 
 let codeB = `${code1}-${code2}-${code3}`;
 
